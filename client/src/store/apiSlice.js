@@ -1,6 +1,7 @@
 import { createApi,fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-const baseURL = 'http://localhost:8080';
+// const baseURL = 'http://localhost:8080';
+const baseURL = 'https://exp-tracker-jm13.onrender.com';
 export const apiSlice = createApi({
     baseQuery : fetchBaseQuery({baseUrl: baseURL}),
 
